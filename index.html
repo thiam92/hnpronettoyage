@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Agency - Start Bootstrap Theme</title>
+        <title>Agence - HN PRO NETTOYAGE</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -20,7 +20,10 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="assets/img/logos/logoMain.jpg" alt="Logo", title="HN PRO NETTOYAGE" class="navbar-logo" style="max-height: 75px; max-width: 200px; width: auto; height: auto; background: black; padding: 5px;" /></a>
+                <a class="navbar-brand" href="#page-top">
+                    <img src="assets/img/logos/logoMain.jpg" alt="Logo" title="HN PRO NETTOYAGE" class="navbar-logo" />
+                    <span class="navbar-brand-text">HN PRO NETTOYAGE</span>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -39,9 +42,14 @@
         <header class="masthead">
             <div class="container">
                 <div class="masthead-content">
-                    <div class="masthead-tagline" style="color: #1a1a4d; font-size: 0.875rem; font-weight: 600; letter-spacing: 0.1em; margin-bottom: 1rem;">PROPRETÉ. QUALITÉ. CONFIANCE.</div>
-                    <div class="masthead-title" style="color: #1a1a4d; font-size: clamp(1.25rem, 4vw, 2.5rem); font-weight: 700; line-height: 1.2; margin-bottom: 1rem; max-width: 95%;">UN SERVICE DE<br/>NETTOYAGE<br/>PROFESSIONNEL</div>
-                    <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+                    <div class="masthead-title" style="color: #ffffff; font-size: clamp(1rem, 4vw, 2.2rem); font-weight: 700; line-height: 1.2; margin-bottom: 1.5rem; max-width: 90%; text-shadow: 3px 3px 6px rgba(26, 26, 77, 0.6);">UN SERVICE DE<br/>NETTOYAGE<br/>PROFESSIONNEL</div>
+                    <a class="btn btn-primary btn-xl btn-phone" href="#contact">
+                        <span class="btn-phone-icon"><i class="fas fa-phone-alt"></i></span>
+                        <span class="btn-phone-text">
+                            CONTACTEZ-NOUS
+                            <small>pour un devis gratuit</small>
+                        </span>
+                    </a>
                 </div>
             </div>
         </header>
@@ -50,32 +58,35 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Des prestations sur-mesure pour tous vos espaces, livrées proprement et rapidement.</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-building fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Bureaux</h4>
-                        <p class="text-muted">Nettoyage professionnel pour les espaces de travail, bureaux et locaux commerciaux.</p>
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fas fa-building fa-2x"></i>
+                            </div>
+                            <h4 class="my-3">Bureaux</h4>
+                            <p class="text-muted">Nettoyage professionnel pour les espaces de travail, bureaux et locaux commerciaux.</p>
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-house fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Résidentiel</h4>
-                        <p class="text-muted">Service de nettoyage pour maisons, appartements et espaces de vie privés.</p>
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fas fa-house fa-2x"></i>
+                            </div>
+                            <h4 class="my-3">Résidentiel</h4>
+                            <p class="text-muted">Service de nettoyage pour maisons, appartements et espaces de vie privés.</p>
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-industry fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Chantiers</h4>
-                        <p class="text-muted">Entretien et nettoyage après travaux pour chantiers, bâtiments en construction et locaux industriels.</p>
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fas fa-industry fa-2x"></i>
+                            </div>
+                            <h4 class="my-3">Chantiers</h4>
+                            <p class="text-muted">Entretien et nettoyage après travaux pour chantiers, bâtiments en construction et locaux industriels.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -85,7 +96,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Exemples de réalisations terrain, du bureau à l’habitat en passant par les chantiers.</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -98,8 +109,8 @@
                                 <img class="img-fluid" src="assets/img/portfolio/pf1.jpeg" alt="Nettoyage bureaux" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Nettoyage de bureaux</div>
-                                <div class="portfolio-caption-subheading text-muted">Propreté des espaces de travail</div>
+                                <div class="portfolio-caption-heading">Entretien résidentiel</div>
+                                <div class="portfolio-caption-subheading text-muted">Aménagements  remis à neuf avec rigueur et propreté durable.</div>
                             </div>
                         </div>
                     </div>
@@ -113,8 +124,8 @@
                                 <img class="img-fluid" src="assets/img/portfolio/pf2.jpeg" alt="Nettoyage résidentiel" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Nettoyage résidentiel</div>
-                                <div class="portfolio-caption-subheading text-muted">Entretien de maisons et appartements</div>
+                                <div class="portfolio-caption-heading">Entretien résidentiel</div>
+                                <div class="portfolio-caption-subheading text-muted">Appartements et maisons nettoyés en profondeur pour un intérieur sain et accueillant.</div>
                             </div>
                         </div>
                     </div>
@@ -129,7 +140,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Nettoyage industriel</div>
-                                <div class="portfolio-caption-subheading text-muted">Entretien des sites de production</div>
+                                <div class="portfolio-caption-subheading text-muted">Zones de production et ateliers traités avec des solutions adaptées et efficaces.</div>
                             </div>
                         </div>
                     </div>
@@ -143,8 +154,8 @@
                                 <img class="img-fluid" src="assets/img/portfolio/pf4.jpeg" alt="Entretien après chantier" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Après chantier</div>
-                                <div class="portfolio-caption-subheading text-muted">Remise en état après travaux</div>
+                                <div class="portfolio-caption-heading">Remise en état après chantier</div>
+                                <div class="portfolio-caption-subheading text-muted">Déblayage, dépoussiérage et lavage final pour une livraison de chantier impeccable.</div>
                             </div>
                         </div>
                     </div>
@@ -159,7 +170,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Espaces commerciaux</div>
-                                <div class="portfolio-caption-subheading text-muted">Entretien de commerces et halls</div>
+                                <div class="portfolio-caption-subheading text-muted">Commerces et halls vitrines entretenus pour une image propre et soignée.</div>
                             </div>
                         </div>
                     </div>
@@ -170,11 +181,11 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="Nettoyage vitres" />
+                                <img class="img-fluid" src="assets/img/portfolio/pf6.jpeg" alt="Nettoyage vitres" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Nettoyage vitres</div>
-                                <div class="portfolio-caption-subheading text-muted">Vitrerie et façades impeccables</div>
+                                <div class="portfolio-caption-subheading text-muted">Façades et vitrines cristallines pour une visibilité parfaite.</div>
                             </div>
                         </div>
                     </div>
@@ -186,15 +197,15 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Notre équipe</h2>
-                    <h3 class="section-subheading text-muted">Le propriétaire de l'entreprise</h3>
+                    <h3 class="section-subheading text-muted">La copropriétaire de l'entreprise</h3>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div class="team-member text-center">
-                            <img class="mx-auto rounded-circle mb-4" src="assets/img/team/1.jpg" alt="Propriétaire" style="width: 220px; height: 220px; object-fit: cover;" />
-                            <h4>Nom du propriétaire</h4>
-                            <p class="text-muted">Propriétaire et fondateur</p>
-                            <p class="large text-muted">Passionné par la propreté et le service, il dirige l'entreprise avec une attention particulière à la qualité et à la satisfaction client.</p>
+                            <img class="mx-auto rounded-circle mb-4" src="assets/img/team/habsa.jpeg" alt="Copropriétaire" style="width: 220px; height: 220px; object-fit: cover;" />
+                            <h4>Habsatou Niang</h4>
+                            <p class="text-muted">Copropriétaire et fondatrice</p>
+                            <p class="large text-muted">Passionnée par la propreté et le service, elle dirige l'entreprise avec une attention particulière à la qualité et à la satisfaction client.</p>
                         </div>
                     </div>
                 </div>
