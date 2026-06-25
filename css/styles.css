@@ -11193,6 +11193,8 @@ header.masthead .masthead-content {
   flex-direction: column;
   justify-content: flex-start;
   height: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -11204,6 +11206,8 @@ header.masthead .masthead-content {
 
   header.masthead .masthead-content {
     justify-content: flex-start;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .btn-phone {
@@ -11217,12 +11221,11 @@ header.masthead .masthead-content {
     padding-top: 3rem;
     padding-bottom: 2rem;
   }
-}
 
-header.masthead .masthead-content {
-  width: 100%;
-  z-index: 2;
-  position: relative;
+  header.masthead .masthead-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 header.masthead .masthead-tagline {
